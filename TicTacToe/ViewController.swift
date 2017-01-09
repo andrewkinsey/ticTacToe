@@ -42,11 +42,11 @@ class ViewController: UIViewController
                 {
                     if myGrid.xTurn == true
                     {
-                        label.text = "🍑"
+                        label.text = "🍎"
                     }
                     else
                     {
-                        label.text = "🍆"
+                        label.text = "🍐"
                     }
                     myGrid.xTurn = !myGrid.xTurn
                     label.canTap = false
